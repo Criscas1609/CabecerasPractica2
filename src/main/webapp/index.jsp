@@ -20,5 +20,7 @@
     <button type="submit">Probar Actualizar a cada momento</button>
 </form><br>
 <a href="Login.jsp">Login</a>
+<br>
+<a href="Product.jsp">Producto id</a>
 </body>
 </html>
