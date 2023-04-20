@@ -14,7 +14,7 @@
 </head>
 <body>
 <h1>Iniciar sesión</h1>
-<form action="${pageContext.request.contextPath}/LoginServlet" method="Get">
+<form action="${pageContext.request.contextPath}/LoginServlet" method="Post">
   <div>
     <label for="username">Username</label>
     <div>

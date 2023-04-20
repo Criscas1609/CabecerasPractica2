@@ -9,14 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="299931f7-73fd-4e17-a745-da9e8ce295fe" name="Changes" comment="Adelanto">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cabezeras/servlet/ProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Product.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+    <list default="true" id="299931f7-73fd-4e17-a745-da9e8ce295fe" name="Changes" comment="Formulario de producto terminado y con su error generado">
+      <change afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cabezeras/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cabezeras/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cabezeras/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Session.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cabezeras/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cabezeras/service/ProductoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cabezeras/service/impl/ProductoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cabezeras/service/impl/ProductoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cabezeras/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cabezeras/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cabezeras/servlet/NewServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cabezeras/servlet/NewServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -71,6 +74,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cristhian\Desktop\Proyectos Programación 2\practica 2\cabezeras\src\main\webapp" />
+    </key>
+  </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.6">
     <configuration name="Product.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/cabezeras_war/Product.jsp">
       <method v="2" />
@@ -217,7 +225,10 @@
       <updated>1681721382220</updated>
       <workItem from="1681721383727" duration="3797000" />
       <workItem from="1681733999043" duration="2282000" />
-      <workItem from="1681844326506" duration="2546000" />
+      <workItem from="1681844326506" duration="6415000" />
+      <workItem from="1681852350428" duration="639000" />
+      <workItem from="1681930902752" duration="1896000" />
+      <workItem from="1681936503624" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="Adelanto">
       <created>1681738241998</created>
@@ -226,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681738241998</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Formulario de producto terminado y con su error generado">
+      <created>1681846942614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681846942614</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +252,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adelanto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adelanto" />
+    <MESSAGE value="Formulario de producto terminado y con su error generado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formulario de producto terminado y con su error generado" />
   </component>
 </project>
