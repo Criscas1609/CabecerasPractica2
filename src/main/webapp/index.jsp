@@ -8,7 +8,25 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<style>
+    h1 {
+        color: blue;
+        font-size: 24px;
+    }
+    a {
+        color: #248524;
+        text-decoration: none;
+    }
+
+    button[type="submit"] {
+        background-color: #a453ff;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
 <br>
 <form method="Get" action="${pageContext.request.contextPath}/NewServlet">
     <button type="submit">Probar Cabeceras HTTP Request</button>
@@ -19,8 +37,7 @@
 <form method="Get" action="${pageContext.request.contextPath}/HoraServlet">
     <button type="submit">Probar Actualizar a cada momento</button>
 </form><br>
-<a href="Login.jsp">Login</a>
-<br>
+<a href="Login.jsp">Login</a></br>
 <a href="Product.jsp">Producto id</a>
 </body>
 </html>
